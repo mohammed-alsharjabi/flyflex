@@ -1,0 +1,424 @@
+{
+  "@@locale": "en",
+
+  "appName": "FlyFlex",
+  "appTagline": "Unsold Seats. Your Opportunity.",
+
+  "navHome": "Home",
+  "navBookings": "Bookings",
+  "navAlerts": "Alerts",
+  "navProfile": "Profile",
+
+  "buttonRetry": "Try Again",
+  "buttonContinue": "Continue",
+  "buttonConfirm": "Confirm",
+  "buttonCancel": "Cancel",
+  "buttonNext": "Next",
+  "buttonGetStarted": "Get Started",
+  "buttonSkip": "Skip",
+  "buttonSignIn": "Sign In",
+  "buttonSignOut": "Sign Out",
+  "buttonBack": "Back",
+  "buttonSave": "Save",
+  "loading": "Loading...",
+  "errorGeneral": "Something went wrong",
+  "errorRetry": "Please try again",
+  "errorNoWifi": "No internet connection",
+
+  "statusLive": "LIVE",
+
+  "onboarding1Title": "Discover Unsold Seats",
+  "onboarding1Subtitle": "Airlines publish seats not sold before takeoff. You discover them first.",
+  "onboarding2Title": "Book at Up to 83% Off",
+  "onboarding2Subtitle": "Premium cabin seats at a fraction of the original price. Luxury, redefined.",
+  "onboarding3Title": "Fly Premium. Pay Less.",
+  "onboarding3Subtitle": "Business and First Class experiences, made accessible. Your upgrade awaits.",
+
+  "loginWelcome": "Welcome Back",
+  "loginTagline": "Sign in to discover premium unsold seats",
+  "loginEmail": "Email Address",
+  "loginEmailHint": "you@example.com",
+  "loginPassword": "Password",
+  "loginPasswordHint": "Enter your password",
+  "loginContinueGuest": "Continue as Guest",
+  "loginEmailRequired": "Email is required",
+  "loginEmailInvalid": "Enter a valid email address",
+  "loginPasswordRequired": "Password is required",
+  "loginPasswordMinLength": "Password must be at least 6 characters",
+
+  "splashTagline": "Premium Unsold Seats",
+
+  "homeAvailableSeats": "Available\nSeats Now",
+  "homeAverageSavings": "Average\nSavings",
+  "homePartnerAirlines": "Partner\nAirlines",
+  "homeHeroTagline": "Unsold Seats.\nYour Opportunity.",
+  "homeHeroSubtitle": "Premium last-minute seats at up to 83% off.\nAvailable right now.",
+  "homeFlightCategories": "Flight Categories",
+  "homeDomesticFlights": "Domestic Flights",
+  "homeInternationalFlights": "International Flights",
+  "homeDomesticSubtitle": "Explore Saudi Arabia",
+  "homeInternationalSubtitle": "Fly Worldwide",
+  "homeLastMinuteDeals": "Last Minute Deals",
+  "homeDealsSubtitle": "Selling fast \u00b7 Limited seats available",
+  "homePopularCities": "Popular Cities",
+  "homeExploreAll": "Explore all",
+  "homeRoutes": "{count} routes",
+  "@homeRoutes": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "homeDomesticRoutes": "24 routes",
+  "homeInternationalRoutes": "48 routes",
+
+  "citiesAvailable": "{count} cities available",
+  "@citiesAvailable": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "citiesFlights": "{count} flights",
+  "@citiesFlights": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "flightsDomestic": "Domestic Flights",
+  "flightsInternational": "International Flights",
+  "flightsAll": "All",
+  "flightsEconomy": "Economy",
+  "flightsBusiness": "Business",
+  "flightsFirstClass": "First Class",
+  "flightsDirect": "Direct",
+  "flightsSeatsLeft": "{count} left",
+  "@flightsSeatsLeft": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "flightsNoResults": "No flights available",
+  "flightsAvailable": "Available Flights",
+  "flightsSortPrice": "Sort by Price",
+  "flightsCurrency": "SAR",
+  "flightsAirlines": "Airlines",
+  "flightsSortAsc": "Price: Low to High",
+  "flightsSortDesc": "Price: High to Low",
+
+  "flightDetailsTitle": "Flight Details",
+  "flightDetailsBookNow": "Book Now",
+  "flightDetailsPriceBreakdown": "Price Breakdown",
+  "flightDetailsBaseFare": "Base Fare",
+  "flightDetailsTaxes": "Taxes & Fees",
+  "flightDetailsServiceFee": "FlyFlex Service Fee",
+  "flightDetailsTotal": "Total",
+  "flightDetailsSavings": "You save SAR {amount} ({percent}%)",
+  "@flightDetailsSavings": {
+    "placeholders": {
+      "amount": { "type": "String" },
+      "percent": { "type": "int" }
+    }
+  },
+  "flightDetailsInfo": "Flight Information",
+  "flightDetailsAircraft": "Aircraft",
+  "flightDetailsDepartureTerminal": "Departure Terminal",
+  "flightDetailsArrivalTerminal": "Arrival Terminal",
+  "flightDetailsBaggage": "Baggage Allowance",
+  "flightDetailsOnTime": "On-time Rate",
+  "flightDetailsRefund": "Refund Policy",
+  "flightDetailsBoardBy": "Board by {time}",
+  "@flightDetailsBoardBy": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "flightDetailsSeatsLeft": "{count} seats left",
+  "@flightDetailsSeatsLeft": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "flightDetailsCabin": "Cabin",
+  "flightDetailsStops": "Stops",
+  "flightDetailsNonStop": "Non-stop",
+
+  "passengerTitle": "Passenger Details",
+  "passengerFirstName": "First Name",
+  "passengerFirstNameHint": "As in passport",
+  "passengerLastName": "Last Name",
+  "passengerLastNameHint": "As in passport",
+  "passengerDateOfBirth": "Date of Birth",
+  "passengerGender": "Gender",
+  "passengerGenderMale": "Male",
+  "passengerGenderFemale": "Female",
+  "passengerPassportNumber": "Passport Number",
+  "passengerPassportNumberHint": "e.g. A12345678",
+  "passengerPassportExpiry": "Passport Expiry Date",
+  "passengerNationality": "Nationality",
+  "passengerNationalityHint": "e.g. Saudi Arabian",
+  "passengerNationalId": "National ID / Iqama",
+  "passengerNationalIdHint": "10-digit ID number",
+  "passengerMobile": "Mobile Number",
+  "passengerMobileHint": "e.g. +966 5X XXX XXXX",
+  "passengerEmail": "Email Address",
+  "passengerEmailHint": "Optional",
+  "passengerContinue": "Continue to Seat Selection",
+  "passengerRequired": "This field is required",
+  "passengerInvalidEmail": "Enter a valid email address",
+  "passengerInvalidMobile": "Enter a valid mobile number",
+  "passengerInvalidPassport": "Enter a valid passport number",
+  "passengerInvalidNationalId": "Enter a valid ID number (10 digits)",
+  "passengerExpiredPassport": "Passport must not be expired",
+  "passengerFlightSummary": "Flight Summary",
+  "passengerPersonalInfo": "Personal Information",
+  "passengerTravelDoc": "Travel Documents",
+  "passengerContactInfo": "Contact Information",
+  "passengerTravelDocSubtitle": "Upload your passport to auto-fill details",
+  "passengerPersonalInfoSubtitle": "Details must match your passport",
+  "passengerContactInfoSubtitle": "For booking confirmation and updates",
+  "passengerSelectNationality": "Select nationality",
+  "passengerSelectCountryCode": "Select country code",
+  "passengerSearchCountry": "Search country...",
+  "passengerUploadPassport": "Upload passport",
+  "passengerUploadPassportHint": "JPG, PNG or PDF — data will be extracted automatically",
+  "passengerChooseFile": "Choose file",
+  "passengerPassportUploaded": "Passport uploaded",
+  "passengerScanningPassport": "Reading passport...",
+  "passengerScanSuccess": "Passport data extracted successfully",
+  "passengerAutoFillBanner": "Details auto-filled from passport — you can edit them",
+  "passengerAutoFilled": "Auto",
+  "passengerMobileLocalHint": "5X XXX XXXX",
+  "passengerUploadSourceTitle": "Upload passport",
+  "passengerPickFromGallery": "From photo gallery",
+  "passengerPickFromGalleryHint": "Choose a passport photo from your album",
+  "passengerPickFromFiles": "From files",
+  "passengerPickFromFilesHint": "Choose a PDF or image from your device",
+  "passengerUploadFailed": "Could not open files. Restart the app and try again",
+  "passengerInvalidFileType": "Unsupported file type. Use JPG, PNG or PDF",
+  "passengerFormIncomplete": "Please complete all required fields",
+
+  "seatTitle": "Select Your Seat",
+  "seatAvailable": "Available",
+  "seatSelected": "Selected",
+  "seatOccupied": "Occupied",
+  "seatPremium": "Premium",
+  "seatConfirm": "Confirm Seat",
+  "seatNoSelection": "Select a seat to continue",
+  "seatFirstClass": "First Class",
+  "seatBusiness": "Business Class",
+  "seatEconomy": "Economy",
+  "seatSelectedLabel": "Seat {seat}",
+  "@seatSelectedLabel": {
+    "placeholders": {
+      "seat": { "type": "String" }
+    }
+  },
+  "seatExtraCharge": "+SAR {amount}",
+  "@seatExtraCharge": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+
+  "paymentTitle": "Payment",
+  "paymentSelectMethod": "Select Payment Method",
+  "paymentCreditCard": "Credit Card",
+  "paymentApplePay": "Apple Pay",
+  "paymentGooglePay": "Google Pay",
+  "paymentBankTransfer": "Bank Transfer",
+  "paymentPay": "Pay SAR {amount}",
+  "@paymentPay": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "paymentProcessing": "Processing...",
+  "paymentFailed": "Payment failed. Please try again.",
+  "paymentSummary": "Order Summary",
+  "paymentVisaMastercard": "Visa, Mastercard, Amex",
+  "paymentApplePaySub": "Pay with Face ID / Touch ID",
+  "paymentGooglePaySub": "Pay with Google account",
+  "paymentBankTransferSub": "Direct bank transfer",
+
+  "ticketTitle": "Your Ticket",
+  "ticketBoardingPass": "BOARDING PASS",
+  "ticketPassenger": "Passenger",
+  "ticketSeat": "Seat",
+  "ticketGate": "Gate",
+  "ticketDate": "Date",
+  "ticketCabin": "Cabin",
+  "ticketBoardingTime": "Boarding",
+  "ticketDownload": "Download Ticket",
+  "ticketShare": "Share",
+  "ticketBackHome": "Back to Home",
+  "ticketStatusConfirmed": "CONFIRMED",
+  "ticketStatusCheckedIn": "CHECKED IN",
+  "ticketStatusBoarded": "BOARDED",
+
+  "bookingsTitle": "My Bookings",
+  "bookingsUpcoming": "Upcoming ({count})",
+  "@bookingsUpcoming": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "bookingsPast": "Past ({count})",
+  "@bookingsPast": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "bookingsNoUpcoming": "No upcoming trips",
+  "bookingsNoPast": "No past trips",
+  "bookingsStatusUpcoming": "Upcoming",
+  "bookingsStatusCompleted": "Completed",
+  "bookingsStatusCancelled": "Cancelled",
+  "bookingsRef": "Ref",
+
+  "profileTitle": "Profile",
+  "profileMyBookings": "My Bookings",
+  "profileNotifications": "Notifications",
+  "profilePaymentMethods": "Payment Methods",
+  "profileHelp": "Help & Support",
+  "profileAbout": "About FlyFlex",
+  "profileSignOut": "Sign Out",
+  "profileSignOutTitle": "Sign Out",
+  "profileSignOutConfirm": "Are you sure you want to sign out?",
+  "profileTotalBookings": "Bookings",
+  "profileTotalFlights": "Flights",
+  "profileMemberSince": "Member Since",
+  "profileTierBronze": "Bronze",
+  "profileTierSilver": "Silver",
+  "profileTierGold": "Gold",
+  "profileTierPlatinum": "Platinum",
+
+  "notificationsTitle": "Notifications",
+  "notificationsEmpty": "No notifications yet",
+  "notificationsMarkAll": "Mark all read",
+
+  "cabinEconomy": "Economy",
+  "cabinBusiness": "Business",
+  "cabinFirst": "First Class",
+
+  "citiesDomestic": "Domestic",
+  "citiesInternational": "International",
+  "citiesFailedToLoad": "Failed to load cities",
+  "flightsDomesticRegion": "Saudi Arabia",
+  "flightsInternationalRegion": "Worldwide",
+  "flightsOnePassenger": "1 Passenger",
+  "flightsNoResultsHint": "Try adjusting your filters or\nsearch for a different route.",
+  "flightsStop": "{count} Stop",
+  "@flightsStop": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "flightsSeatsLeftFull": "{count} seats left",
+  "@flightsSeatsLeftFull": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "homeYouSave": "You save SAR {amount}",
+  "@homeYouSave": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "homeDealsCount": "{count} deals",
+  "@homeDealsCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "flightDetailsAmenities": "Amenities",
+  "flightDetailsSellingFast": "Selling Fast!",
+  "flightDetailsOnlySeatsLeft": "Only {count} seat(s) left",
+  "@flightDetailsOnlySeatsLeft": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "flightDetailsLoading": "Loading flight details…",
+  "flightDetailsFailedToLoad": "Failed to load details",
+  "flightDetailsTotalPrice": "Total Price",
+  "flightDetailsInclTaxes": "incl. taxes & fees",
+  "flightDetailsSavePercent": "Save {percent}%",
+  "@flightDetailsSavePercent": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "flightDetailsTaxesPercent": "Taxes & Fees (15%)",
+  "seatSelectASeat": "Select a Seat",
+  "seatTotal": "total",
+  "paymentSecureTitle": "Secure Payment",
+  "paymentTotalAmount": "Total Amount",
+  "paymentPayNow": "Pay Now",
+  "paymentDoNotClose": "Please do not close this screen",
+  "paymentCardNumber": "Card Number",
+  "paymentCardNumberHint": "0000 0000 0000 0000",
+  "paymentExpiry": "Expiry",
+  "paymentExpiryHint": "MM/YY",
+  "paymentCvv": "CVV",
+  "paymentCvvHint": "•••",
+  "paymentCardHolder": "CARD HOLDER",
+  "paymentExpires": "EXPIRES",
+  "paymentChoosePayment": "Choose Payment",
+  "paymentAirline": "Airline",
+  "paymentFlyFlexFee": "FlyFlex Fee",
+  "paymentYouSaveFlyFlex": "You save SAR {amount} with FlyFlex!",
+  "@paymentYouSaveFlyFlex": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "ticketBookingConfirmed": "Booking Confirmed!",
+  "ticketBoardingPassReady": "Your boarding pass is ready",
+  "ticketSavedToDevice": "Ticket saved to device",
+  "ticketShareLinkCopied": "Share link copied",
+  "ticketViewMyBookings": "View My Bookings",
+  "ticketDuration": "Duration",
+  "ticketClass": "Class",
+  "bookingsNoBookingsYet": "No bookings yet",
+  "bookingsEmptySubtitle": "Discover premium unsold seats\nat unbeatable prices",
+  "bookingsFindFlights": "Find Flights",
+  "profileLanguage": "Language",
+  "profileLanguageSubtitle": "Arabic, English",
+  "profileLanguageArabic": "Arabic",
+  "profileLanguageEnglish": "English",
+  "profilePersonalInfoSubtitle": "Name, email, phone",
+  "profileTravelDocSubtitle": "Passport, ID",
+  "profilePaymentMethodsSubtitle": "Cards, digital wallets",
+  "profileNotificationsSubtitle": "Alerts & preferences",
+  "profileHelpSubtitle": "24/7 assistance",
+  "profileMember": "{tier} Member",
+  "@profileMember": {
+    "placeholders": {
+      "tier": { "type": "String" }
+    }
+  },
+  "profilePoints": "{points} pts",
+  "@profilePoints": {
+    "placeholders": {
+      "points": { "type": "int" }
+    }
+  },
+  "dateSelectPlaceholder": "Select date",
+  "notificationsEmptySubtitle": "We'll notify you about price drops\nand booking updates.",
+
+  "amenitySnacks": "Snacks",
+  "amenityUsbCharging": "USB Charging",
+  "amenityFullMeal": "Full Meal",
+  "amenityWifi": "WiFi",
+  "amenityFlatBed": "Flat Bed",
+  "amenityLoungeAccess": "Lounge Access",
+  "amenityAmenityKit": "Amenity Kit",
+  "amenityPrivateSuite": "Private Suite",
+  "amenityBar": "Bar",
+  "amenityPriorityBoarding": "Priority Boarding",
+  "amenityShowerSpa": "Shower Spa",
+  "amenityExtraLegroom": "Extra Legroom",
+  "amenityEntertainment": "Entertainment",
+  "amenityChauffeur": "Chauffeur Service"
+}

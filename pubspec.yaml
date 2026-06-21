@@ -1,0 +1,66 @@
+name: fly_flex
+description: "FlyFlex - Premium marketplace for unsold airline seats."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+
+  # Navigation
+  go_router: ^15.1.2
+
+  # Network
+  dio: ^5.8.0+1
+  pretty_dio_logger: ^1.4.0
+
+  # Dependency Injection
+  get_it: ^8.0.3
+
+  # Local Storage
+  shared_preferences: ^2.5.3
+
+  # UI & Animations
+  flutter_animate: ^4.5.2
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  dotted_border: ^2.1.0
+  smooth_page_indicator: ^1.2.0+3
+
+  # Fonts & Icons
+  google_fonts: ^6.2.1
+
+  # Utilities
+  intl: ^0.20.2
+  uuid: ^4.5.1
+
+  # Default
+  cupertino_icons: ^1.0.8
+  file_picker: ^11.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/cities/
+    - assets/flights/
+    - assets/onboarding/
